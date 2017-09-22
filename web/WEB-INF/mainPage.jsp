@@ -15,6 +15,6 @@
         <h1>Main Page</h1>
         
         <p>Hello <span>${user}</span></p> 
-        <a href="/src/loginLab/MainPageServlet.java">Log out</a>
+        <a href="MainPageServlet?logout=true">Log out</a>
     </body>
 </html>
