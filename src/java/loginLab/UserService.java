@@ -17,9 +17,14 @@ public class UserService
             }
     boolean login(String username, String password)
     {
-        if(password.equalsIgnoreCase("password") && username.equalsIgnoreCase("adam") || username.equalsIgnoreCase("betty"))
-                return true;
-        else
-            return false;
+        if(password.equalsIgnoreCase("password") )
+                {
+                    if (username.equalsIgnoreCase("adam") || username.equalsIgnoreCase("betty"))
+                            {
+                                return true;
+                            }
+                }
+            
+        return false;
     }
 }
